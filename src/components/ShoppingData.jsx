@@ -27,7 +27,7 @@ const ShoppingData = () => {
           <tr key={item.id}>
             <td>{item.id}</td>
             <td>{item.title}</td>
-            <td>{item.type}</td>
+            <td>{item.category}</td>
             <td>{item.description}</td>
             <td>£{item.price}</td>
             <td>{item.rating}</td>

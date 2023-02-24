@@ -1,7 +1,7 @@
 [
   {
     "title": "Brown eggs",
-    "type": "dairy",
+    "category": "dairy",
     "description": "Raw organic brown eggs in a basket",
     "id": "0",
     "price": 28.1,
@@ -9,7 +9,7 @@
   },
   {
     "title": "Sweet fresh stawberry",
-    "type": "fruit",
+    "category": "fruit",
     "description": "Sweet fresh stawberry on the wooden table",
     "id": "1",
     "price": 29.45,
@@ -17,7 +17,7 @@
   },
   {
     "title": "Asparagus",
-    "type": "vegetable",
+    "category": "vegetable",
     "description": "Asparagus with ham on the wooden table",
     "id": "2",
     "price": 18.95,
@@ -25,7 +25,7 @@
   },
   {
     "title": "Green smoothie",
-    "type": "dairy",
+    "category": "dairy",
     "description": "Glass of green smoothie with quail egg's yolk, served with cocktail tube, green apple and baby spinach leaves over tin surface.",
     "id": "3",
     "price": 17.68,
@@ -33,7 +33,7 @@
   },
   {
     "title": "Raw legums",
-    "type": "vegetable",
+    "category": "vegetable",
     "description": "Raw legums on the wooden table",
     "id": "4",
     "price": 17.11,
@@ -41,7 +41,7 @@
   },
   {
     "title": "Baking cake",
-    "type": "dairy",
+    "category": "dairy",
     "description": "Baking cake in rural kitchen - dough  recipe ingredients (eggs, flour, sugar) on vintage wooden table from above.",
     "id": "5",
     "price": 11.14,
@@ -49,7 +49,7 @@
   },
   {
     "title": "Pesto with basil",
-    "type": "vegetable",
+    "category": "vegetable",
     "description": "Italian traditional pesto with basil, chesse and oil",
     "id": "6",
     "price": 18.19,
@@ -57,7 +57,7 @@
   },
   {
     "title": "Hazelnut in black ceramic bowl",
-    "type": "vegetable",
+    "category": "vegetable",
     "description": "Hazelnut in black ceramic bowl on old wooden background. forest wealth. rustic style. selective focus",
     "id": "7",
     "price": 27.35,
@@ -65,7 +65,7 @@
   },
   {
     "title": "Fresh stawberry",
-    "type": "fruit",
+    "category": "fruit",
     "description": "Sweet fresh stawberry on the wooden table",
     "id": "8",
     "price": 28.59,
@@ -73,7 +73,7 @@
   },
   {
     "title": "Lemon and salt",
-    "type": "fruit",
+    "category": "fruit",
     "description": "Rosemary, lemon and salt on the table",
     "id": "9",
     "price": 15.79,
@@ -81,7 +81,7 @@
   },
   {
     "title": "Homemade bread",
-    "type": "bakery",
+    "category": "bakery",
     "description": "Homemade bread",
     "id": "10",
     "price": 17.48,
@@ -89,7 +89,7 @@
   },
   {
     "title": "Legums",
-    "type": "vegetable",
+    "category": "vegetable",
     "description": "Cooked legums on the wooden table",
     "id": "11",
     "price": 14.77,
@@ -97,7 +97,7 @@
   },
   {
     "title": "Fresh tomato",
-    "type": "vegetable",
+    "category": "vegetable",
     "description": "Fresh tomato juice with basil",
     "id": "12",
     "price": 16.3,
@@ -105,7 +105,7 @@
   },
   {
     "title": "Healthy breakfast",
-    "type": "fruit",
+    "category": "fruit",
     "description": "Healthy breakfast set. rice cereal or porridge with berries and honey over rustic wood background",
     "id": "13",
     "price": 13.02,
@@ -113,7 +113,7 @@
   },
   {
     "title": "Green beans",
-    "type": "vegetable",
+    "category": "vegetable",
     "description": "Raw organic green beans ready to eat",
     "id": "14",
     "price": 28.79,
@@ -121,7 +121,7 @@
   },
   {
     "title": "Baked stuffed portabello mushrooms",
-    "type": "bakery",
+    "category": "bakery",
     "description": "Homemade baked stuffed portabello mushrooms with spinach and cheese",
     "id": "15",
     "price": 20.31,
@@ -129,7 +129,7 @@
   },
   {
     "title": "Strawberry jelly",
-    "type": "fruit",
+    "category": "fruit",
     "description": "Homemade organic strawberry jelly in a jar",
     "id": "16",
     "price": 14.18,
@@ -137,7 +137,7 @@
   },
   {
     "title": "Pears juice",
-    "type": "fruit",
+    "category": "fruit",
     "description": "Fresh pears juice on the wooden table",
     "id": "17",
     "price": 19.49,
@@ -145,7 +145,7 @@
   },
   {
     "title": "Fresh pears",
-    "type": "fruit",
+    "category": "fruit",
     "description": "Sweet fresh pears on the wooden table",
     "id": "18",
     "price": 15.12,
@@ -153,7 +153,7 @@
   },
   {
     "title": "Caprese salad",
-    "type": "vegetable",
+    "category": "vegetable",
     "description": "Homemade healthy caprese salad with tomato mozzarella and basil",
     "id": "19",
     "price": 16.76,
@@ -161,7 +161,7 @@
   },
   {
     "title": "Oranges",
-    "type": "fruit",
+    "category": "fruit",
     "description": "Orange popsicle ice cream bars made from fresh oranges.  a refreshing summer treat.",
     "id": "20",
     "price": 21.48,
@@ -169,7 +169,7 @@
   },
   {
     "title": "Vegan food",
-    "type": "vegetable",
+    "category": "vegetable",
     "description": "Concept of vegan food",
     "id": "21",
     "price": 29.66,
@@ -177,7 +177,7 @@
   },
   {
     "title": "Breakfast with muesli",
-    "type": "dairy",
+    "category": "dairy",
     "description": "Concept of healthy breakfast with muesli",
     "id": "22",
     "price": 22.7,
@@ -185,7 +185,7 @@
   },
   {
     "title": "Honey",
-    "type": "bakery",
+    "category": "bakery",
     "description": "Honey and honeycell on the table",
     "id": "23",
     "price": 17.01,
@@ -193,7 +193,7 @@
   },
   {
     "title": "Breakfast with cottage",
-    "type": "fruit",
+    "category": "fruit",
     "description": "Healthy breakfast with cottage cheese and strawberry",
     "id": "24",
     "price": 14.05,
@@ -201,7 +201,7 @@
   },
   {
     "title": "Strawberry smoothie",
-    "type": "fruit",
+    "category": "fruit",
     "description": "Glass of red strawberry smoothie with chia seeds, served with retro cocktail tube, fresh mint and strawberries over dark background",
     "id": "25",
     "price": 28.86,
@@ -209,7 +209,7 @@
   },
   {
     "title": "Strawberry and mint",
-    "type": "fruit",
+    "category": "fruit",
     "description": "Homemade muesli with strawberry and mint",
     "id": "26",
     "price": 26.21,
@@ -217,7 +217,7 @@
   },
   {
     "title": "Ricotta",
-    "type": "dairy",
+    "category": "dairy",
     "description": "Ricotta with berry and mint",
     "id": "27",
     "price": 27.81,
@@ -225,7 +225,7 @@
   },
   {
     "title": "Cuban sandwiche",
-    "type": "bakery",
+    "category": "bakery",
     "description": "Homemade traditional cuban sandwiches with ham pork and cheese",
     "id": "28",
     "price": 18.5,
@@ -233,7 +233,7 @@
   },
   {
     "title": "Granola",
-    "type": "dairy",
+    "category": "dairy",
     "description": "Glass jar with homemade granola and yogurt with nuts, raspberries and blackberries on wooden cutting board over white textile in day light",
     "id": "29",
     "price": 29.97,
@@ -241,7 +241,7 @@
   },
   {
     "title": "Smoothie with chia seeds",
-    "type": "fruit",
+    "category": "fruit",
     "description": "Glass of red strawberry smoothie with chia seeds, served with retro cocktail tube, fresh mint and strawberries over wooden table",
     "id": "30",
     "price": 25.26,
