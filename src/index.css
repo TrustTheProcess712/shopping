@@ -55,3 +55,21 @@
 .navbar a:hover {
   color: #ee1c2e;
 }
+
+/* item-card */
+
+.item-card {
+  display: grid;
+  justify-items: center;
+  grid-gap: 6px;
+}
+
+/* landingPage */
+
+.landing-page {
+  display: grid;
+  grid-gap: 6px;
+  grid-template-columns: 12px 12px 12px;
+  grid-template-rows: 12px 12px 12px;
+  /* align-items: center; */
+}
