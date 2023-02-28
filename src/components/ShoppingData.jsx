@@ -1,15 +1,6 @@
 import { useEffect, useState } from "react";
-import { getShoppingData } from "../utils/api.js";
 
-const ShoppingData = () => {
-  const [shopping, setShopping] = useState([]);
-
-  useEffect(() => {
-    getShoppingData().then((items) => {
-      setShopping(items);
-    });
-  }, []);
-
+const ShoppingData = ({ items }) => {
   return (
     <table>
       <thead>
@@ -24,7 +15,7 @@ const ShoppingData = () => {
         </tr>
       </thead>
       <tbody>
-        {shopping.map((item) => (
+        {items.map((item) => (
           <tr key={item.id}>
             <td>{item.id}</td>
             <td>{item.title}</td>
