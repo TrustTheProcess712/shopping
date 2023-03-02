@@ -4,16 +4,16 @@
     "category": "dairy",
     "image": "https://www.mashed.com/img/gallery/are-brown-eggs-really-worth-the-extra-cost/intro-1597233855.jpg",
     "description": "Raw organic brown eggs in a basket",
-    "id": "0",
+    "id": 0,
     "price": 2,
     "rating": 4
   },
   {
-    "title": "Sweet fresh stawberry",
+    "title": "Fresh stawberries",
     "category": "fruit",
     "image": "http://clv.h-cdn.co/assets/15/22/2560x1728/gallery-1432664914-strawberry-facts1.jpg",
-    "description": "Sweet fresh stawberry on the wooden table",
-    "id": "1",
+    "description": "Sweet fresh stawberries.",
+    "id": 1,
     "price": 2.45,
     "rating": 4
   },
@@ -22,7 +22,7 @@
     "category": "vegetable",
     "image": "https://www.jessicagavin.com/wp-content/uploads/2019/04/how-to-cook-asparagus-5-1200.jpg",
     "description": "Asparagus with ham on the wooden table",
-    "id": "2",
+    "id": 2,
     "price": 1.95,
     "rating": 3
   },
@@ -30,8 +30,8 @@
     "title": "Green smoothie",
     "category": "dairy",
     "image": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2020/01/Green-Smoothie-Recipe-7.jpg",
-    "description": "Glass of green smoothie with qu ail egg's yolk, served with cocktail tube, green apple and baby spinach leaves over tin surface.",
-    "id": "3",
+    "description": "Glass of green smoothie.",
+    "id": 3,
     "price": 1.68,
     "rating": 4
   },
@@ -40,7 +40,7 @@
     "category": "vegetable",
     "image": "https://www.wildoats.com/wp-content/uploads/2015/11/beanspicWOblog.jpg",
     "description": "Raw legums on the wooden table",
-    "id": "4",
+    "id": 4,
     "price": 1.11,
     "rating": 2
   },
@@ -48,8 +48,8 @@
     "title": "Baked cake",
     "category": "dairy",
     "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/12/Lemon-layer-cake-d2a2df0.jpg",
-    "description": "Baking cake in rural kitchen - dough  recipe ingredients (eggs, flour, sugar) on vintage wooden table from above.",
-    "id": "5",
+    "description": "Delicious baked cake.",
+    "id": 5,
     "price": 5.14,
     "rating": 4
   },
@@ -57,8 +57,8 @@
     "title": "Pesto with basil",
     "category": "vegetable",
     "image": "https://www.simplyrecipes.com/thmb/QS8FUisjaLPxSgfmpWfpHS3wFJM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2014__08__Fresh-Basil-Pesto-LEAD-2-d990e7900183450dbddb69628bd8a160.jpg",
-    "description": "Italian traditional pesto with basil, chesse and oil",
-    "id": "6",
+    "description": "Italian traditional pesto",
+    "id": 6,
     "price": 2.5,
     "rating": 2
   },
@@ -66,8 +66,8 @@
     "title": "Hazelnuts",
     "category": "vegetable",
     "image": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/hazelnuts-in-bowl-1296x728.jpg?w=1155&h=1528",
-    "description": "Hazelnut in black ceramic bowl on old wooden background. forest wealth. rustic style. selective focus",
-    "id": "7",
+    "description": "Hazelnuts lorem ipsum",
+    "id": 7,
     "price": 1.39,
     "rating": 4
   },
@@ -76,7 +76,7 @@
     "category": "fruit",
     "image": "https://willisbrosfreshfood.co.uk/uploads/webp/products_1639606-IMG_6070.JPG.webp",
     "description": "Sweet fresh mixed grapes",
-    "id": "8",
+    "id": 8,
     "price": 1.99,
     "rating": 4
   },
@@ -85,7 +85,7 @@
     "category": "fruit",
     "image": "https://www.creedfoodservice.co.uk/media/catalog/product/cache/d781aa45b0623b3b1e7a18c482a05dd6/5/5/55794ccfd0846ee91fe9c088eb1e1669.jpg",
     "description": "Fresh lemons",
-    "id": "9",
+    "id": 9,
     "price": 0.89,
     "rating": 5
   },
@@ -94,7 +94,7 @@
     "category": "bakery",
     "image": "https://moorlandseater.com/wp-content/uploads/2018/05/no-knead-bread-for-beginners-sliced-on-a-board-moorlands-eater-DSC07055.jpg",
     "description": "Homemade bread",
-    "id": "10",
+    "id": 10,
     "price": 3.5,
     "rating": 3
   },
@@ -103,7 +103,7 @@
     "category": "vegetable",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ42-MPEeIAdkDtavYfF2OTTZEWmmVPQvaXJuVHdiawgLJZIAnyUFJNzNHknv3mrz7w8po&usqp=CAU",
     "description": "Fresh leafy carrots",
-    "id": "11",
+    "id": 11,
     "price": 1.99,
     "rating": 4
   },
@@ -112,7 +112,7 @@
     "category": "vegetable",
     "image": "https://www.simplyrecipes.com/thmb/z95Tx3jzQkPNc_i1MlDHmy2pI-Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2008__08__homemade-tomato-juice-horiz-a-1200-c37b5128f0f248999446fc460f8afb96.jpg",
     "description": "Fresh tomato juice with basil",
-    "id": "12",
+    "id": 12,
     "price": 2.99,
     "rating": 2
   },
@@ -121,7 +121,7 @@
     "category": "meat",
     "image": "https://i0.wp.com/countryfoodservices.co.uk/wp-content/uploads/2019/09/Back-Bacon-Web.png?fit=360%2C360&ssl=1",
     "description": "Unsmoked back bacon slices",
-    "id": "13",
+    "id": 13,
     "price": 2,
     "rating": 5
   },
@@ -130,16 +130,16 @@
     "category": "vegetable",
     "image": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/Food-Nutrition/1296x728_Green_Beans_Nutrition_Facts_and_Health_Benefits-IMAGE_1.jpg?w=1155&h=1528",
     "description": "Raw organic green beans ready to eat",
-    "id": "14",
+    "id": 14,
     "price": 1.49,
     "rating": 3
   },
   {
-    "title": "Baked stuffed Portabello mushrooms",
+    "title": "Portabello mushrooms",
     "category": "bakery",
     "image": "https://sundaysuppermovement.com/wp-content/uploads/2021/10/baked-portobello-mushrooms-featured.jpg",
-    "description": "Homemade baked stuffed portabello mushrooms with spinach and cheese",
-    "id": "15",
+    "description": "Stuffed portabello mushrooms.",
+    "id": 15,
     "price": 3.99,
     "rating": 5
   },
@@ -148,7 +148,7 @@
     "category": "fruit",
     "image": "https://img.delicious.com.au/l6s-Ydr6/del/2015/10/fresh-strawberry-jelly-12714-1.jpg",
     "description": "Homemade organic strawberry jelly in a jar",
-    "id": "16",
+    "id": 16,
     "price": 1.18,
     "rating": 3
   },
@@ -157,7 +157,7 @@
     "category": "fruit",
     "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/05/pear-juice-recipe-2.jpg",
     "description": "Fresh pears juice on the wooden table",
-    "id": "17",
+    "id": 17,
     "price": 1.49,
     "rating": 4
   },
@@ -166,7 +166,7 @@
     "category": "fruit",
     "image": "https://images-prod.healthline.com/hlcmsresource/images/AN_images/benefits-of-pears-1296x728-feature.jpg",
     "description": "Sweet fresh pears on the wooden table",
-    "id": "18",
+    "id": 18,
     "price": 1.12,
     "rating": 5
   },
@@ -175,7 +175,7 @@
     "category": "vegetable",
     "image": "https://cdn.loveandlemons.com/wp-content/uploads/2019/08/caprese-salad-recipe-1.jpg",
     "description": "Homemade healthy caprese salad with tomato mozzarella and basil",
-    "id": "19",
+    "id": 19,
     "price": 1.76,
     "rating": 5
   },
@@ -183,8 +183,8 @@
     "title": "Orange Ice Creams",
     "category": "fruit",
     "image": "https://i.ytimg.com/vi/c8QeMTkQ-p8/maxresdefault.jpg",
-    "description": "Orange popsicle ice cream bars made from fresh oranges.  a refreshing summer treat.",
-    "id": "20",
+    "description": "Orange popsicle ice cream bars made from fresh oranges.",
+    "id": 20,
     "price": 1.48,
     "rating": 4
   },
@@ -193,7 +193,7 @@
     "category": "vegetable",
     "image": "https://groceries.morrisons.com/productImages/556/556274011_0_640x640.jpg?identifier=7ace850b61713053c3754f020ba9c204",
     "description": "Concept of vegan food",
-    "id": "21",
+    "id": 21,
     "price": 9.66,
     "rating": 4
   },
@@ -202,7 +202,7 @@
     "category": "dairy",
     "image": "https://www.allrecipes.com/thmb/d5vQBAC_DrHj0L8YWCyVN0SHppo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/888014-f94dab3b95ce41ebad1fa04b5539f804.jpg",
     "description": "Concept of healthy breakfast with muesli",
-    "id": "22",
+    "id": 22,
     "price": 2.7,
     "rating": 2
   },
@@ -211,7 +211,7 @@
     "category": "bakery",
     "image": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/04/honey-1296x728-header.jpg?w=1155&h=1528",
     "description": "Honey on the table",
-    "id": "23",
+    "id": 23,
     "price": 1.01,
     "rating": 2
   },
@@ -220,26 +220,26 @@
     "category": "fruit",
     "image": "https://cdn.shopify.com/s/files/1/0051/2547/2320/products/5010578008020_T1_1200x.png?v=1605794809",
     "description": "Have a healthy breakfast with cottage cheese",
-    "id": "24",
+    "id": 24,
     "price": 1.05,
     "rating": 1
   },
   {
     "title": "Strawberry smoothie",
     "category": "fruit",
-    "image": "http://clv.h-cdn.co/assets/15/22/2560x1728/gallery-1432664914-strawberry-facts1.jpg",
-    "description": "Glass of red strawberry smoothie with chia seeds, served with retro cocktail tube, fresh mint and strawberries over dark background",
-    "id": "25",
+    "image": "https://www.thereciperebel.com/wp-content/uploads/2019/04/strawberry-smoothie-www.thereciperebel.com-600-1-of-15.jpg",
+    "description": "Strawberry smoothie with chia seeds.",
+    "id": 25,
     "price": 28.86,
     "rating": 2
   },
   {
-    "title": "Strawberry and mint",
-    "category": "fruit",
-    "image": "https://www.thereciperebel.com/wp-content/uploads/2019/04/strawberry-smoothie-www.thereciperebel.com-600-1-of-15.jpg",
-    "description": "Homemade muesli with strawberry and mint",
-    "id": "26",
-    "price": 26.21,
+    "title": "Sausages",
+    "category": "meat",
+    "image": "https://cdn.shopify.com/s/files/1/0372/8402/0362/products/shutterstock_551764336_1024x1024@2x.jpg?v=1587286713",
+    "description": "Delicious stilton sausage",
+    "id": 2,
+    "price": 2.21,
     "rating": 4
   },
   {
@@ -247,16 +247,16 @@
     "category": "dairy",
     "image": "https://www.galbani.co.uk/wp-content/uploads/2021/05/Ricotta-250g-.png",
     "description": "Ricotta with berry and mint",
-    "id": "27",
+    "id": 27,
     "price": 3.81,
     "rating": 5
   },
   {
-    "title": "Cuban sandwiche",
+    "title": "Cuban sandwich",
     "category": "bakery",
     "image": "https://www.seriouseats.com/thmb/D8UCO0pqUIhHTh1Ephm7f2LEZMM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cuban-sandwich-recipe-Hero-5833ef16ac3f4ebe99fb3156c9fe2e0c.jpg",
-    "description": "Homemade traditional cuban sandwiches with ham pork and cheese",
-    "id": "28",
+    "description": "Homemade cuban sandwich",
+    "id": 28,
     "price": 2.5,
     "rating": 4
   },
@@ -264,17 +264,26 @@
     "title": "Granola",
     "category": "dairy",
     "image": "https://cookieandkate.com/images/2015/10/best-granola-recipe-1.jpg",
-    "description": "A mixture typically of rolled oats and various added ingredients (such as brown sugar, raisins, coconut, and nuts) that is eaten especially for breakfast or as a snack",
-    "id": "29",
+    "description": "A mixture typically of rolled oats.",
+    "id": 29,
     "price": 2.97,
     "rating": 3
   },
   {
-    "title": "",
+    "title": "Sweetcorn",
     "category": "fruit",
     "image": "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcS0PLgc5fsyWiPWtBt0n1yqHTnIfrRW3m6pkMcY0u3U8i9YxrPN5TfMmbWAUEmOt9M__MREjDKKFUvBKXI",
     "description": " Sweet corn kernels in brine",
-    "id": "30",
+    "id": 30,
+    "price": 0.96,
+    "rating": 5
+  },
+  {
+    "title": "Apple's",
+    "category": "fruit",
+    "image": "https://media.istockphoto.com/id/622795204/photo/red-delicious-apples.jpg?s=612x612&w=0&k=20&c=-uu4u0m62t1nz3kcOVkallOgSWoOj_KtcVTCIlyfpXY=",
+    "description": " Frech Gala Apple's",
+    "id": 31,
     "price": 0.96,
     "rating": 5
   }
