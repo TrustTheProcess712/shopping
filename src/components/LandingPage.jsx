@@ -3,10 +3,12 @@ import { useEffect, useState } from "react";
 const LandingPage = ({ children }) => {
   return (
     <>
-      <h3 className='landing-page-description'>
-        Welcome to Go Shopping please search below for the products you need...
-      </h3>
-      <div className='grid-container'>{children}</div>
+      <div className='landing-page'>
+        <h3 className='landing-page-description'>
+          Welcome to Go Shopping please use the search feature below!
+        </h3>
+        {children}
+      </div>
     </>
   );
 };

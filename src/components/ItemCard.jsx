@@ -1,7 +1,7 @@
 const ItemCard = ({ shopping }) => {
   return (
     // <div className='grid-container'>
-    <>
+    <div className='grid-container'>
       {shopping.map((item) => (
         <div className='item-card' key={item.id}>
           <h3>{item.title}</h3>
@@ -11,8 +11,7 @@ const ItemCard = ({ shopping }) => {
           <button type='submit'>Add to basket</button>
         </div>
       ))}
-      {/* // </div> */}
-    </>
+    </div>
   );
 };
 
