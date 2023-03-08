@@ -72,6 +72,10 @@ input::placeholder {
   color: var(--blue);
 }
 
+input[type="search"]::-webkit-search-cancel-button {
+  cursor: pointer;
+}
+
 .search-container input {
   display: flex;
   align-items: center;
