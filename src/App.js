@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { getShoppingData } from "./utils/api.js";
 import LandingPage from "./components/LandingPage.jsx";
+import Basket from "./components/Basket.jsx";
 import ItemCard from "./components//ItemCard.jsx";
 import NavBar from "./components//NavBar.jsx";
 
@@ -72,6 +73,7 @@ function App() {
                   <ItemCard shopping={shopping} />
                 </LandingPage>
               }></Route>
+            <Route path='/basket' element={<Basket />}></Route>
           </Routes>
         </div>
       </div>

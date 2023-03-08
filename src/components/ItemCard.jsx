@@ -1,6 +1,5 @@
 const ItemCard = ({ shopping }) => {
   return (
-    // <div className='grid-container'>
     <div className='grid-container'>
       {shopping.map((item) => (
         <div className='item-card' key={item.id}>
