@@ -86,7 +86,11 @@ function App() {
                   <ItemCard shopping={shopping} updatedBasket={updatedBasket} />
                 </LandingPage>
               }></Route>
-            <Route path='/basket' element={<Basket basket={basket} />}></Route>
+            <Route
+              path='/basket'
+              element={
+                <Basket basket={basket} setBasket={setBasket} />
+              }></Route>
           </Routes>
         </div>
       </div>
