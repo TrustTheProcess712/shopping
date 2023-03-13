@@ -1,18 +1,9 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
-const ItemCard = ({ shopping }) => {
-  const [basket, setBasket] = useState(() => {
-    const storedBasket = localStorage.getItem("basket");
-    return storedBasket ? JSON.parse(storedBasket) : [];
-  });
-
-  useEffect(() => {
-    localStorage.setItem("basket", JSON.stringify(basket));
-  }, [basket]);
-
+const ItemCard = ({ shopping, updatedBasket }) => {
   const handleClick = (title, description, image, price) => {
     const newItem = { title, description, image, price };
-    setBasket((prevBasket) => [...prevBasket, newItem]);
+    updatedBasket(newItem);
   };
 
   return (
