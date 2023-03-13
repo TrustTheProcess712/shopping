@@ -14,6 +14,15 @@ function App() {
     query: "",
     list: [],
   });
+  const [basket, setBasket] = useState(() => {
+    const storedBasket = localStorage.getItem("basket");
+    return storedBasket ? JSON.parse(storedBasket) : [];
+  });
+
+  useEffect(() => {
+    localStorage.setItem("basket", JSON.stringify(basket));
+  }, [basket]);
+
   useEffect(() => {
     getShoppingData().then((items) => {
       setShopping(items);
@@ -50,6 +59,10 @@ function App() {
     }
   };
 
+  const updatedBasket = (newItem) => {
+    setBasket((prevBasket) => [...prevBasket, newItem]);
+  };
+
   return (
     <BrowserRouter>
       <div className='App'>
@@ -70,10 +83,10 @@ function App() {
                       />
                     </form>
                   </div>
-                  <ItemCard shopping={shopping} />
+                  <ItemCard shopping={shopping} updatedBasket={updatedBasket} />
                 </LandingPage>
               }></Route>
-            <Route path='/basket' element={<Basket />}></Route>
+            <Route path='/basket' element={<Basket basket={basket} />}></Route>
           </Routes>
         </div>
       </div>
