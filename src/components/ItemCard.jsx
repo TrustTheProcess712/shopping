@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 const ItemCard = ({ shopping, updatedBasket }) => {
-  const handleClick = (title, description, image, price) => {
-    const newItem = { title, description, image, price };
+  const handleClick = (title, description, image, price, id) => {
+    const newItem = { title, description, image, price, id };
     updatedBasket(newItem);
   };
 
@@ -17,7 +17,13 @@ const ItemCard = ({ shopping, updatedBasket }) => {
           <button
             type='button'
             onClick={() =>
-              handleClick(item.title, item.description, item.image, item.price)
+              handleClick(
+                item.title,
+                item.description,
+                item.image,
+                item.price,
+                item.id
+              )
             }>
             Add to basket
           </button>
