@@ -7,7 +7,7 @@
 // can then build up functionality adding totals of items and deleting
 // use TDD as practice for this
 
-const Basket = ({ shopping }) => {
+const Basket = ({ basket }) => {
   return <div className='basketContainer'></div>;
 };
 
