@@ -7,8 +7,20 @@
 // can then build up functionality adding totals of items and deleting
 // use TDD as practice for this
 
-const Basket = ({ basket }) => {
-  return <div className='basketContainer'></div>;
+const Basket = ({ basket, setBasket }) => {
+  return (
+    <div className='basketContainer'>
+      <h3>Your Basket!</h3>
+      {basket.map((basket) => (
+        <div className='basketCard' key={basket.id}>
+          <h3>{basket.title}</h3>
+          <p>{basket.description}</p>
+          <img src={basket.image} alt={basket.title} width={100} />
+          <p>£{basket.price}</p>
+        </div>
+      ))}
+    </div>
+  );
 };
 
 export default Basket;
