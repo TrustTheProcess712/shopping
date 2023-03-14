@@ -8,19 +8,37 @@
 // use TDD as practice for this
 
 const Basket = ({ basket, setBasket }) => {
+  const handleDelete = (index) => {
+    setBasket((prevBasket) => {
+      const newBasket = [...prevBasket];
+      newBasket.splice(index, 1);
+      return newBasket;
+    });
+  };
   return (
     <>
-      <h3>Your Basket!</h3>
-      <div className='basketContainer'>
-        {basket.map((items, index) => (
-          <div className='basketCard' key={items.id - index}>
-            <img src={items.image} alt={items.title} height={100} width={100} />
-            <h3>{items.title}</h3>
-            <p>£{items.price}</p>
-            <button type='button'>Delete</button>
-          </div>
-        ))}
-      </div>
+      <h3>My basket ({basket.length} items)</h3>
+      {basket.length === 0 ? (
+        <h3>Your basket is empty!</h3>
+      ) : (
+        <div className='basketContainer'>
+          {basket.map((items, index) => (
+            <div className='basketCard' key={items.id - index}>
+              <img
+                src={items.image}
+                alt={items.title}
+                height={100}
+                width={100}
+              />
+              <h3>{items.title}</h3>
+              <p>£{items.price}</p>
+              <button type='button' onClick={() => handleDelete(index)}>
+                Delete
+              </button>
+            </div>
+          ))}
+        </div>
+      )}
     </>
   );
 };
