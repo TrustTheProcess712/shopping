@@ -1,5 +1,5 @@
 // needs to display items added from landing page
-// add to basket button in item card will need to display mesg saying item added
+// add to basket button in item card will need to display msg saying item added
 // could use flexbox or grid to display them horizontally, cards will need to be smaller here
 // will need to be pushed into a new array and stored in state
 // will need a delete button diplayed and functionality
