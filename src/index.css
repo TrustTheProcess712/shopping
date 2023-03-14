@@ -100,7 +100,6 @@ input[type="search"]::-webkit-search-cancel-button {
 
 .grid-container {
   display: grid;
-
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, auto);
   grid-row-gap: 0.25rem;
@@ -151,5 +150,69 @@ p {
 }
 
 .item-card button:hover {
+  color: var(--red);
+}
+
+/* basket */
+
+.basketContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  justify-items: center;
+  width: 80%;
+  height: 80%;
+  background-color: var(--darker);
+  padding: 1rem;
+  border: 1px solid var(--red);
+  border-radius: 5%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.basketCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--blue);
+  border-radius: 1rem;
+  margin: 0.5rem;
+}
+
+.basketCard h3:last-of-type {
+  margin-bottom: 0;
+}
+
+.basketCard h3,
+p {
+  background-color: var(--darker);
+  color: #111827;
+}
+
+.basketCard {
+  background-color: var(--darker);
+}
+
+.basketCard img {
+  display: flex;
+  margin: 1rem;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1rem;
+  border: 1px solid var(--red);
+}
+
+.basketCard button {
+  background: var(--blue);
+  color: var(--darkest);
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.basketCard button:hover {
   color: var(--red);
 }

@@ -9,17 +9,19 @@
 
 const Basket = ({ basket, setBasket }) => {
   return (
-    <div className='basketContainer'>
+    <>
       <h3>Your Basket!</h3>
-      {basket.map((basket) => (
-        <div className='basketCard' key={basket.id}>
-          <h3>{basket.title}</h3>
-          <p>{basket.description}</p>
-          <img src={basket.image} alt={basket.title} width={100} />
-          <p>£{basket.price}</p>
-        </div>
-      ))}
-    </div>
+      <div className='basketContainer'>
+        {basket.map((items, index) => (
+          <div className='basketCard' key={items.id - index}>
+            <img src={items.image} alt={items.title} height={100} width={100} />
+            <h3>{items.title}</h3>
+            <p>£{items.price}</p>
+            <button type='button'>Delete</button>
+          </div>
+        ))}
+      </div>
+    </>
   );
 };
 
